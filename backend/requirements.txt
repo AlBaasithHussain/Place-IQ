@@ -1,0 +1,17 @@
+fastapi>=0.115,<1.0
+uvicorn[standard]>=0.30
+pydantic>=2.7
+pydantic-settings>=2.3
+email-validator>=2.0
+SQLAlchemy==1.4.54
+psycopg2-binary>=2.9
+PyJWT>=2.8
+bcrypt>=4.1
+python-dotenv>=1.0
+
+# PDF parsing (pure-Python pypdf; PyMuPDF is blocked by App Control here)
+pypdf>=4.0
+python-multipart>=0.0.9
+
+# HTTP client for the OpenAI-compatible LLM call (pure Python)
+httpx>=0.27
